@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Calculo de Médias</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/logo.png" alt="capelo e diploma">
+            <h1><b>Calculadora de Médias </b></h1>
+        </header>
+        <form id="form-atividade">
+            <input type="text" id="nome-atividade" required placeholder="Nome da atividade" />
+            <input type="number" id="nota-atividade" placeholder="Nota da atividade" min="0" max="10" />
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table cellspacing="0">
+            <!--Tirar a separação entre as celulas da tabela-->
+            <thead>
+                <!--cabeçalho da tabela-->
+                <tr>
+                    <!--linha-->
+                    <th>
+                        <!--Coluna-->
+                        Nome da atividade
+                    </th>
+                    <th>
+                        Nota da atividade
+                    </th>
+                    <th>Aprovado?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--adicionar conteúdo da tabela-->
+                <tr>
+                    <td>Atividade 1</td>
+                    <td>7</td>
+                    <td>
+                        <img src="./images/aprovado.png" alt="Emoji festejando" />
+                    </td>
+
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        Média final
+                    </td>
+                    <td>7</td>
+                    <td><span class="resultado aprovado">Aprovado</span></td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+
+
+
+    </div>
+
+    <script src="./index.js"></script>
+    </div>
+
+</body>
+
+</html>
