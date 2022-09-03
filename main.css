@@ -1,0 +1,124 @@
+* {
+    /*Meio que uma configuração padrão do CSS (Regra geral/Reset do CSS)*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    /*um elemento ao lado do outro*/
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+header img {
+    height: 32px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+
+.container {
+    max-width: 960px;
+    /* Dentro dessa quantidade de px que quero colocar o container na tela*/
+    width: 100%;
+    /*ocupar 100%*/
+    margin: 0 auto;
+    /*centralizá-lo na horizontal*/
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    /*espaçamento entre os itens selecionados*/
+    margin-bottom: 56px;
+    /*espaçamento entre o formulário e tabela*/
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+
+form #nota-atividade{
+    width: 83px; /* largura do formulário*/
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+
+form button {
+    background-color: rgba(0, 0, 200);
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer; /*maozinha ao passar o mouse sobre o botão*/
+    border: none;
+    font-weight: bold;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    /* espaçamento*/
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    
+}
+
+table td img {
+    height: 30px;
+}
+
+tfoot tr  {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+    /*borda arredondada*/
+}
+
+.aprovado {
+    background-color: rgb(11, 145, 40);
+}
+
+.reprovado {
+    background-color: red;
+}
