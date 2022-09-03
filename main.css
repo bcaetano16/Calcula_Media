@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 body {
@@ -27,6 +27,7 @@ header img {
 header h1 {
     font-size: 40px;
     font-weight: bold;
+    border-bottom: 2px solid #000;
 }
 
 .container {
@@ -56,11 +57,20 @@ form input {
     padding: 8px;
 }
 
+form #nota-atividade{
+    width: 83px; /* largura do formulário*/
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+
 form button {
-    background-color: rgb(11, 145, 40);
+    background-color: rgba(0, 0, 200);
     color: #fff;
     font-size: 24px;
-    cursor: pointer;
+    cursor: pointer; /*maozinha ao passar o mouse sobre o botão*/
     border: none;
     font-weight: bold;
     padding: 8px;
@@ -68,7 +78,6 @@ form button {
 
 table {
     width: 100%;
-
 }
 
 table th {
@@ -84,10 +93,17 @@ table td {
     text-align: center;
     font-size: 18px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    
 }
 
 table td img {
     height: 30px;
+}
+
+tfoot tr  {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .resultado {

@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Titillium+Web&display=swap"
+        rel="stylesheet">
     <title>Calculo de Médias</title>
 </head>
 
@@ -16,12 +17,13 @@
     <div class="container">
         <header>
             <img src="./images/logo.png" alt="capelo e diploma">
-            <h1><b>Calculadora de Médias </b></h1>
+            <h1><b>Calculadora de Médias de Notas</b></h1>
         </header>
         <form id="form-atividade">
             <input type="text" id="nome-atividade" required placeholder="Nome da atividade" />
             <input type="number" id="nota-atividade" placeholder="Nota da atividade" min="0" max="10" />
             <button type="submit">Adicionar +</button>
+
         </form>
         <table cellspacing="0">
             <!--Tirar a separação entre as celulas da tabela-->
@@ -33,7 +35,7 @@
                         <!--Coluna-->
                         Nome da atividade
                     </th>
-                    <th>
+                    <th id="nota-atividade-situacao">
                         Nota da atividade
                     </th>
                     <th>Aprovado?</th>
@@ -42,31 +44,28 @@
             <tbody>
                 <!--adicionar conteúdo da tabela-->
                 <tr>
-                    <td>Atividade 1</td>
-                    <td>7</td>
-                    <td>
-                        <img src="./images/aprovado.png" alt="Emoji festejando" />
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---
+                        <!--<img src="./images/aprovado.png" alt="Emoji festejando" />-->
                     </td>
 
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <td>
+                    <td id="media-final">
                         Média final
                     </td>
-                    <td>7</td>
-                    <td><span class="resultado aprovado">Aprovado</span></td>
+                    <td id="media-final-valor">---</td>
+                    <td id="media-final-resultado">---</td>
                 </tr>
             </tfoot>
+            <p><b><i>* A nota mínima da média final das notas, para ser considerado aprovado tem
+                        que ser maior ou igual a 7</i></b></p>
+                        <p><b><i>*A nota por matéria tem que ser maior ou igual a 6 para aprovação.</i></b></p>
         </table>
-
-
-
-
-
     </div>
-
     <script src="./index.js"></script>
     </div>
 
