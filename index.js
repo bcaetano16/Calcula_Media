@@ -1,6 +1,6 @@
 const form = document.getElementById('form-atividade');//Váriaveis declaradas de forma global
-const imgAprovado = '<img src="./images/png-transparent-computer-icons-check-mark-presentation-symbol-check-list-miscellaneous-angle-text.png" alt="check verde" /> ';
-const imgReprovado = '<img src="./images/d3826a943b0d3a9d54ec3d3cba01d0ef.png" alt="X vermelho" /> <br/> Prova de recuperação!' 
+const imgAprovado = '<img src="./png-transparent-computer-icons-check-mark-presentation-symbol-check-list-miscellaneous-angle-text.png" alt="check verde" /> ';
+const imgReprovado = '<img src="./d3826a943b0d3a9d54ec3d3cba01d0ef.png" alt="X vermelho" /> <br/> Prova de recuperação!' 
 const atividades = [];//array vazio
 const notas = [];//array vazio
 const spanAprovado = '<span class="resultado aprovado">Aprovado</span>'; //coloração do item Aprovado
