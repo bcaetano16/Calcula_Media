@@ -24,7 +24,7 @@
 
 ## Imagens
 
-![/images/Calcula_media.png"](https://github.com/bcaetano16/Calcula_Media/blob/master/images/Calcula_media.png)
+![/Calcula_media.png"](https://github.com/bcaetano16/Calcula_Media/blob/main/Calcula_media.png)
 
 ## Pré requisitos
 
