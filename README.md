@@ -31,7 +31,7 @@
 Para abrir o site, basta apenas o uso de um navegador de sua preferência.
 
 ## Links
-- Acesso: https:</br>
+- Acesso: https:calcula-media.vercel.app</br>
 - Repositório: (https://github.com/bcaetano16/Calcula_Media)
 
 ## Autor
